@@ -1,6 +1,6 @@
 //A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
 
-var tableData = require("../data/friendData");
+var friends = require("../app/data/friends");
 
 module.exports = function(app) {
     // API GET Requests
@@ -10,10 +10,10 @@ module.exports = function(app) {
     // ---------------------------------------------------------------------------
   
     app.get("/api/friends", function(req, res) {
-      res.json(friendData);
+      res.json(friends);
     });
 
     app.post("api/friends", function(req, res){
-        res.json(friendData);
+        res.json(friends);
     })
 }
