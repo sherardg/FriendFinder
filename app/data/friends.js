@@ -2,7 +2,7 @@
 var friendData =[
     {
     name: "Mikey",
-    photo: "https://www.pinclipart.com/pindetail/iTiRJh_disney-mickey-mouse-minnie-mouse-walt-disney-mikey/",
+    photo: "https://www.disneyclips.com/images/images/mickey-mouse-car.png",
     scores: [
         "4",
         "5",
@@ -18,8 +18,8 @@ var friendData =[
 },
 
 {
-    name: "Sharon",
-    photo: "https://www.google.com/search?q=minnie+mouse&client=firefox-b-1-e&source=lnms&tbm=isch&sa=X&ved=0ahUKEwilxouPk8_jAhUjheAKHSsvD2wQ_AUIEigC&biw=1437&bih=737#imgrc=gA4e9YJ4-8PmQM:",
+    name: "Minney",
+    photo: "https://www.disneyclips.com/images/images/minnie-mouse-ice-cream.png",
     scores: [
         "2",
         "5",
@@ -34,6 +34,57 @@ var friendData =[
     ]
 },
 
+{
+    name: "Goofey",
+    photo: "https://www.disneyclips.com/images/images/goofy10.png",
+    scores: [
+        "2",
+        "1",
+        "4",
+        "5",
+        "2",
+        "1",
+        "4",
+        "5",
+        "1",
+        "2",
+    ]
+},
+
+{
+    name: "Donald",
+    photo: "https://www.disneyclips.com/images/images/goofy10.png",
+    scores: [
+        "4",
+        "5",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "2",
+        "4",
+        "3",
+    ]
+},
+
+
+{
+    name: "Daisy",
+    photo: "https://www.disneyclips.com/images/images/daisy-duck7.png",
+    scores: [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "4",
+    ]
+},
 
 ];
 
