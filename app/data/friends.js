@@ -86,6 +86,23 @@ var friendData =[
     ]
 },
 
+{
+    name: "Pluto",
+    photo: "https://www.disneyclips.com/images/images/pluto13.png",
+    scores: [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+    ]
+},
+
 ];
 
 module.exports = friendData;

@@ -7,6 +7,8 @@ var app = express();
 
 var PORT = process.env.PORT || 8080;
 
+app.use(express.static("public"));
+
 //SETS UP THE EXPRESS APP TO HANDLE DATA PARSING
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
@@ -17,8 +19,8 @@ app.use(express.json());
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./app/routes/apiRoutes")(app);
+require("./app/routes/htmlRoutes")(app);
 
 
 // LISTENER

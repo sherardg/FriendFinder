@@ -2,7 +2,7 @@
 
 var path = require("path");
 var express = require("express");
-var friends = require("../app/data/friends");
+var friends = require("../data/friends");
 
 module.exports = function(app) {
     // API GET Requests
@@ -15,12 +15,12 @@ module.exports = function(app) {
       res.json(friends);
     });
 
-    app.post("api/friends", function(req, res){
+    app.post("/api/friends", function(req, res){
         
         var bestMatch = {
             name: "",
             photo: "",
-            friendDiff: 1000
+            friendDiff: Infinity
         };
         console.log(req.body);
 
@@ -31,25 +31,36 @@ module.exports = function(app) {
     console.log(userScores);
     
     //THIS WILL CALCULATE THE DIFFERENCE BETWEEN THE USER SCORES is calculate the difference betwenn the user scores and others in the database
-    var totalDifference = 0;
+    var totalDifference;
 
     //For loop to go through the list of friends
     for (var i = 0; i < friends.length; i++){
+        var currentFriend = friends[i];
         console.log(friends[i]);
         totalDifference = 0;
 
+        console.log("Current Friend,", currentFriend.name);
+
     //LOOP THROUGH ALL SCORES OF EACH FRIEND
-        for (var j = 0; j < friends[i].scores[j]; j++){
-            totalDifference == Math.abs[parseInt(userScores[j])+ parseInt(friends[i].scores[j])];
+        for (var j = 0; j < currentFriend.scores.length; j++){
+            var currentFriendScore = currentFriend.scores[j];
+            var currentUserScore = userScores[j];
 
-            if (totalDifference == bestMatch.friendDiff){
+            totalDifference += Math.abs(parseInt(currentUserScore) - parseInt(currentFriendScore));
 
-                bestMatch.name = friends[i].name;
-                bestMatch.photo = friends[i].photo;
+            if (totalDifference <= bestMatch.friendDiff){
+
+                bestMatch.name = currentFriend.name;
+                bestMatch.photo = currentFriend.photo;
                 bestMatch.friendDiff = totalDifference;
             }
 
         }
+        console.log(totalDifference);
+        console.log(bestMatch.name);
+        console.log(bestMatch.photo);
+        console.log(bestMatch.friendDiff);
+
     }       //USER DATA IS SAVE TO DATABASE AFTER CHECKING SCORES
             friends.push(userData);
 
