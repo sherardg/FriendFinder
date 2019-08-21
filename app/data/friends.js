@@ -35,7 +35,7 @@ var friendData =[
 },
 
 {
-    name: "Goofey",
+    name: "Goofy",
     photo: "https://www.disneyclips.com/images/images/goofy10.png",
     scores: [
         "2",
@@ -53,7 +53,7 @@ var friendData =[
 
 {
     name: "Donald",
-    photo: "https://www.disneyclips.com/images/images/goofy10.png",
+    photo: "https://www.disneyclips.com/images/images/classic-donald.png",
     scores: [
         "4",
         "5",
