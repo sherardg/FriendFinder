@@ -31,4 +31,4 @@ When the form is submitted, the app calculates the total score of the current us
 
 The best match is determined and displayed with the name and image inside a bootstrap modal popup.
 
-Complete the survey and enjoy!
+[Complete the survey and enjoy!] (https://shrouded-lake-69376.herokuapp.com)
