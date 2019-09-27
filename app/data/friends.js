@@ -1,8 +1,8 @@
 
 var friendData =[
     {
-    name: "Mikey",
-    photo: "../assets/img/mickey-mouse-car.png",
+    name: "Mickey",
+    photo: "https://s7d9.scene7.com/is/image/DisneyStoreES/Character_Assets_Mtmb-sq_character-mickey-mouse_launch?$sq-c$",
     scores: [
         "4",
         "5",
@@ -19,7 +19,7 @@ var friendData =[
 
 {
     name: "Minney",
-    photo: "../assets/img/minnie-mouse-ice-cream.png",
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQBvlANoBhW4wUEit0FzyA6OKT7KZckaLlu0l52zpSjVd6zsaJ",
     scores: [
         "2",
         "5",
@@ -36,7 +36,7 @@ var friendData =[
 
 {
     name: "Goofy",
-    photo: "../assets/img/goofy.png",
+    photo: "https://images-na.ssl-images-amazon.com/images/I/41sMLTomzvL._SY450_.jpg",
     scores: [
         "2",
         "1",
@@ -53,7 +53,7 @@ var friendData =[
 
 {
     name: "Donald",
-    photo: "../assets/img/classic-donald.png",
+    photo: "https://lumiere-a.akamaihd.net/v1/images/ct_mickeymouseandfriends_donald_ddt-16970_d906a15e.jpeg?region=0,0,600,600&width=320",
     scores: [
         "4",
         "5",
@@ -71,7 +71,7 @@ var friendData =[
 
 {
     name: "Daisy",
-    photo: "../assets/img/daisy-duck.png",
+    photo: "http://www.wallpaper-inc.com/product_files/chi-rmk1513gm/chi-rmk1513gm.jpg",
     scores: [
         "5",
         "4",
@@ -88,7 +88,7 @@ var friendData =[
 
 {
     name: "Pluto",
-    photo: "../assets/img/pluto.png",
+    photo: "http://www.wallpaper-inc.com/product_files/chi-rmk1511gm/chi-rmk1511gm.jpg",
     scores: [
         "1",
         "2",
