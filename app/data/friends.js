@@ -2,7 +2,7 @@
 var friendData =[
     {
     name: "Mikey",
-    photo: "https://www.disneyclips.com/images/images/mickey-mouse-car.png",
+    photo: "../assets/img/mickey-mouse-car.png",
     scores: [
         "4",
         "5",
@@ -19,7 +19,7 @@ var friendData =[
 
 {
     name: "Minney",
-    photo: "https://www.disneyclips.com/images/images/minnie-mouse-ice-cream.png",
+    photo: "../assets/img/minnie-mouse-ice-cream.png",
     scores: [
         "2",
         "5",
@@ -36,7 +36,7 @@ var friendData =[
 
 {
     name: "Goofy",
-    photo: "https://www.disneyclips.com/images/images/goofy10.png",
+    photo: "../assets/img/goofy.png",
     scores: [
         "2",
         "1",
@@ -53,7 +53,7 @@ var friendData =[
 
 {
     name: "Donald",
-    photo: "https://www.disneyclips.com/images/images/classic-donald.png",
+    photo: "../assets/img/classic-donald.png",
     scores: [
         "4",
         "5",
@@ -71,7 +71,7 @@ var friendData =[
 
 {
     name: "Daisy",
-    photo: "https://www.disneyclips.com/images/images/daisy-duck7.png",
+    photo: "../assets/img/daisy-duck.png",
     scores: [
         "5",
         "4",
@@ -88,7 +88,7 @@ var friendData =[
 
 {
     name: "Pluto",
-    photo: "https://www.disneyclips.com/images/images/pluto13.png",
+    photo: "../assets/img/pluto.png",
     scores: [
         "1",
         "2",
