@@ -25,6 +25,6 @@ This is a Disney Friend Finder app that provides users with a survey, and compar
 
 * The best match is determined and displayed with the name and image inside a bootstrap modal popup.
 
-# This app is deployed on Heroku # https://shrouded-lake-69376.herokuapp.com
+This app is deployed on Heroku - https://shrouded-lake-69376.herokuapp.com
 
-![Friend Finder Screenshot] https://github.com/sherardg/FriendFinder/blob/master/app/public/assets/img/friend-finder.png
+https://github.com/sherardg/FriendFinder/blob/master/app/public/assets/img/friend-finder.png
