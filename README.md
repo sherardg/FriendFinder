@@ -27,4 +27,4 @@ This is a Disney Friend Finder app that provides users with a survey, and compar
 
 This app is deployed on Heroku - https://shrouded-lake-69376.herokuapp.com
 
-![Disney Friend Finder] (app/public/assets/img/friend-finder.png)
+![Disney Friend Finder](app/public/assets/img/friend-finder.png)
